@@ -1,0 +1,7 @@
+pyinstaller --onefile --windowed --icon=icon.ico  run.py
+
+pyinstaller run.py 
+
+pyinstaller run.spec
+
+// or add imports --hidden-import=re_wx
